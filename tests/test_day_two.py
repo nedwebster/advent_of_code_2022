@@ -5,7 +5,7 @@ def test_part_one():
 
     rps = rock_paper_scissors.RockPaperScissors()
 
-    matches = rps._read_input("inputs/day_two.txt")
+    matches = rps._read_input("inputs/02_day_two.txt")
 
     result = rps.get_results(matches)
 
@@ -16,7 +16,7 @@ def test_part_two():
 
     rps = rock_paper_scissors.RockPaperScissors()
 
-    matches = rps._read_input("inputs/day_two.txt")
+    matches = rps._read_input("inputs/02_day_two.txt")
 
     result = rps.get_results(matches, needs_map=True)
 
